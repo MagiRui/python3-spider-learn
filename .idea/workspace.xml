@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec080730-aaf3-4d2f-8fd3-609c55ec6c4d" name="Default" comment="" />
+    <list default="true" id="ec080730-aaf3-4d2f-8fd3-609c55ec6c4d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="python3-spyder.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,22 +57,33 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cfg" value="2" />
+          <entry key="gitignore" value="1" />
           <entry key="py" value="32" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="32" />
           <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -78,7 +92,17 @@
     <favorites_list name="python3-spyder" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,6 +110,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -113,6 +140,7 @@
         <option value="$PROJECT_DIR$/quotetutorial/quotetutorial/items.py" />
         <option value="$PROJECT_DIR$/quotetutorial/quotetutorial/spiders/quotes.py" />
         <option value="$PROJECT_DIR$/weixin-articles/spider.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -121,12 +149,14 @@
     <option name="width" value="1280" />
     <option name="height" value="775" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,37 +164,10 @@
               <item name="python3-spyder" type="b2602c69:ProjectViewProjectNode" />
               <item name="python3-spider-learn" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="python3-spyder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python3-spider-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="beautifulsoup-using" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python3-spyder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python3-spider-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="config-testing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python3-spyder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python3-spider-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="config-testing" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python3-spyder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python3-spider-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="maoyantop100" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python3-spyder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python3-spider-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="weixin-articles" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,7 +355,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1280" height="775" extended-state="6" />
+    <frame x="0" y="25" width="1280" height="775" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19142176" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -366,7 +370,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31957185" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3180428" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -705,6 +709,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
